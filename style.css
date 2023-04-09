@@ -53,7 +53,7 @@ section::before {
 }
 
 .about::before {
-    content: 'About'
+    content: 'About';
 }
 
 .about-exp-item-detail {
@@ -122,6 +122,24 @@ section::before {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.contact {
+    padding-bottom: 128px;
+}
+
+
+.contact::before {
+    content: 'Contact';
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
+.form-label {
+    font-weight: 700;
 }
 
 @keyframes upDown {

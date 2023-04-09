@@ -92,14 +92,53 @@
       </div>
       <div class="col work-img">
         <div id="work-1" class="work-img-item">
-          <img src="images/work-1.png" alt="work 1">
+            <img src="images/work-1.png" alt="work 1">
         </div>
         <div id="work-2" class="work-img-item">
-          <img src="images/work-2.png" alt="work 2">
+            <img src="images/work-2.png" alt="work 2">
         </div>
         <div id="work-3" class="work-img-item">
-          <img src="images/work-3.png" alt="work 3">
+            <img src="images/work-3.png" alt="work 3">
         </div>
+      </div>
+    </div>
+   </section>
+   <section id="contact" class="contact container">
+    <div class="row">
+      <div class="col">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ea quis animi reiciendis unde cum vel. Cupiditate quaerat iste repellat dicta nostrum a ipsa mollitia vitae, voluptatibus sit earum libero asperiores itaque amet harum nihil, quidem dolor maiores? Quisquam ex quas modi commodi architecto minima nobis quis sit inventore hic!</p>
+      </div class="row d-flex align-items-center gap-5">
+          <div class="col">
+            <img src="images/Facebook.svg" alt="Facebook icon">
+            <p>John Doe</p>
+          </div>
+          <div class="col">
+            <img src="images/Instagram.svg" alt="instagram icon">
+            <p>@john_doe</p>
+          </div>
+          <div class="col">
+            <img src="images/Twitter.svg" alt="twitter icon">
+            <p>@john_doe</p>
+          </div>
+      </div>
+      <div class="col">
+        <form class="contact-form" onsubmit="onFormSubmit(event)">
+          <div class="mb-3">
+            <label for="inp_email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="inp_email" placeholder="example@email.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="inp_subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject" required>
+          </div>
+          <div class="mb-3">
+            <label for="inp_message" class="form-label">Meassage</label>
+            <input type="text" class="form-control" id="inp_meassage" placeholder="Your Meassage" required>
+          </div>
+          <div class="d-flex justify-content-center mt-5">
+            <button type="submit" class="btn button">Submit</button>
+          </div>
+        </form>
       </div>
     </div>
    </section>
