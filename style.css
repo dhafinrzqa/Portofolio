@@ -37,8 +37,13 @@ section::before {
 }
 
 .home h3 {
-    font-size: 64px;
+    font-size: 48px;
 }
+
+.home img {
+    width: 100%;
+}
+
 
 .home .arrow img{
     width: 60px;
@@ -48,12 +53,12 @@ section::before {
     animation: 2s upDown infinite;
 }
 
-.about-exp-item {
-    margin-top: 32px;
+.about::before {
+    content: 'About'
 }
 
-.about::before {
-    content: 'About';
+.about-exp-item {
+    margin-top: 32px;
 }
 
 .about-exp-item-detail {
@@ -141,6 +146,20 @@ section::before {
 .form-label {
     font-weight: 700;
 }
+
+@media only screen and (max-width: 768px) {
+    .home img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    section::before {
+        left: -10px;
+        font-size: 64px;
+    }
+}
+
 
 @keyframes upDown {
     0% {
